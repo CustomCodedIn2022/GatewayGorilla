@@ -2,3 +2,26 @@
     font-size: 70px;
     text-align: center;
 }
+
+
+
+#desc{
+    width: 100%;
+    background-color: aqua;
+    padding: 10px;
+    display: inline;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#location{
+    width: 100%;
+    background-color: red;
+    padding: 7px;
+    display: inline;
+    border-radius: 4px;
+    font-size: 20;
+    text-align: center;
+}
+
