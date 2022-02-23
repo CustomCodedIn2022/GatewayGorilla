@@ -3,7 +3,9 @@
     text-align: center;
 }
 
-
+body{
+    background-color: aquamarine;
+}
 
 #desc{
     width: 100%;
