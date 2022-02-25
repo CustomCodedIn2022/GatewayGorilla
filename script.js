@@ -1,10 +1,10 @@
-const button = document.getElementById("button");
+button = Document.getElementById('button');
 
 function show(){
 
-    let div = document.createElement('div');
-    div.innerHTML = '<p>whyyyy whyyyyy you are so mean >:(</p>'
-    document.body.appendChild(div);
+    let div = Document.createElement('div');
+    div.innerHTML = '<h1>whyyyy whyyyyy you are so mean >:( </h1>'
+    Document.body.appendChild(div);
     
     }
     
