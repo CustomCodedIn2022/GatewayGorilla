@@ -7,6 +7,12 @@ body{
     background-color: aquamarine;
 }
 
+#button{
+    background-color: red;
+    padding: 5px;
+    border-radius: 3px;
+}
+
 #desc{
     width: 100%;
     background-color: aqua;
