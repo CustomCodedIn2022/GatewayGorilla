@@ -1,8 +1,10 @@
 var pressed = document.querySelector("#sub");
-
+console.log(pressed);
 var eventValue = function () {
-    document.body.appendChild(document.createElement('div')).textContent = 'how dare you :O';
+    var message = document.body.appendChild(document.createElement('div')).textContent = 'how dare you :O';
+    console.log(message);
  }
  
- pressed.addEventListener("click", eventValue);
+ pressed.addEventListener("click", eventValue, true);
 
+ 
