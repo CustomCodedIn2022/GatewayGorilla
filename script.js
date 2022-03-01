@@ -1,10 +1,11 @@
-var pressed = document.querySelector("#sub");
+var pressed = document.html.body.querySelector("#sub");
 console.log(pressed);
-var eventValue = function () {
-    var message = document.body.appendChild(document.createElement('div')).textContent = 'how dare you :O';
-    console.log(message);
+var EventClickButton = function () {
+    var message = document.html.body.appendChild(document.createElement('div')).innerHTML = '<iframe src="https://www.mathplayground.com/drift-boss-v2/index.html" height='800px' width='750px'></iframe> ';
+    //console.log(message);
+
  }
  
- pressed.addEventListener("click", eventValue, true);
+ pressed.addEventListener("click", EventClickButton, true);
 
- 
+
