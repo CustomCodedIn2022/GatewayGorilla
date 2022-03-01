@@ -9,3 +9,8 @@
  //pressed.addEventListener("click", EventClickButton, true);
 
 
+ function hello() {
+   alert('YOU ARE EVIL');
+   window.Close();
+   }
+   document.getElementById("sub").addEventListener("click", hello, false);
