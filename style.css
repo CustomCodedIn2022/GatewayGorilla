@@ -21,14 +21,16 @@
 body{
     background-color: aquamarine;
 }
-
+#sub a{
+    text-align: center;
+}
 #sub {
     position: relative;
     display: block;
     width: 40%;
-    height: 100%;
+    height: 30%;
     background-color: #fff;
-    
+    font-size: 150%;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -120,3 +122,47 @@ body{
   }
   
   /* Add a color to the active/current link */
+  *{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#pDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: big john;
+    width: 100%;
+    height: 100vh;
+}
+
+h2, p{
+    font-size: 60px;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 16px;
+
+}
+div:nth-child(2) {
+    background-image: url(img/div1.png);
+    background-size: cover;
+    height: 80vh;
+}
+
+div:nth-child(3){
+    background: maroon;
+    height: 50vh;
+}
+
+div:nth-child(4){
+    height: 700px;
+    background-image: url(img/div3.png);
+    background-size: cover; 
+    background-attachment: fixed;
+}
+div:nth-child(5){
+    background: aquamarine;
+    height: 400px;
+}
